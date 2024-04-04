@@ -9,7 +9,7 @@ const options = {
       },
       servers: [
         {
-          url: 'https://my-brand-backend-rff5.onrender.com//api',
+          url: 'https://my-brand-backend-rff5.onrender.com/api',
           description: 'Development server',
         },
       ],
