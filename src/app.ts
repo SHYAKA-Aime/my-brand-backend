@@ -12,7 +12,7 @@ const swaggerUi = require('swagger-ui-express');
 const specs = require('../swaggerConfig');
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://shyaka:shyaka123@cluster0.zykzoej.mongodb.net/';
+const MONGODB_URI = process.env.MONGODB_URI || '';
 
 mongoose.connect(MONGODB_URI, {
  
