@@ -6,7 +6,7 @@ const router = express.Router();
 
 /**
  * @swagger
- * /auth/signup:
+ * auth/signup:
  *   post:
  *     summary: User Signup
  *     description: Register a new user
