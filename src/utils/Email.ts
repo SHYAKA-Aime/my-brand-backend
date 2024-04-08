@@ -6,8 +6,8 @@ export const sendPasswordResetEmail = async (email: string, token: string): Prom
     host: 'smtp.ethereal.email',
     port: 587,
     auth: {
-        user: 'brandyn.sipes50@ethereal.email',
-        pass: 'W1RmQxrqYBj8SKPdtB'
+        user: 'blair.yost70@ethereal.email',
+        pass: '4246kWYZsEawEsRP1f'
     }
 });
 
