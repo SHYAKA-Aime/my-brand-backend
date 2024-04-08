@@ -15,7 +15,7 @@ const router = express.Router();
  *     summary: Create a new blog
  *     description: Create a new blog with the provided data
  *     security:
- *       - bearerAuth: []
+ *       - JWT: []
  *     requestBody:
  *       required: true
  *       content:
@@ -82,7 +82,7 @@ router.get('/blogs/:id',getBlogById);
  *     summary: Update a blog by ID
  *     description: Update a blog's title, description, and image by its ID (Admin only)
  *     security:
- *       - bearerAuth: []
+ *       - JWT: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -128,7 +128,7 @@ router.put('/blogs/:id', isAdmin, updateBlog);
  *     summary: Delete a blog by ID
  *     description: Delete a blog by its ID (Admin only)
  *     security:
- *       - bearerAuth: []
+ *       - JWT: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -156,7 +156,7 @@ router.delete('/blogs/:id', isAdmin, deleteBlog);
  *     summary: Like a blog
  *     description: Like a blog by its ID
  *     security:
- *       - bearerAuth: []
+ *       - JWT: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -179,7 +179,7 @@ router.post('/blogs/:id/like',authenticateUser, likeBlog);
  *     summary: Comment on a blog
  *     description: Add a comment to a blog by its ID
  *     security:
- *       - bearerAuth: []
+ *        - JWT: []
  *     parameters:
  *       - in: path
  *         name: id

@@ -55,6 +55,7 @@ const options = {
     }],
   },
   apis: ['./src/routes/*.ts'], // Path to your API implementation file
+  security: [{ JWT: [] }],
 };
 
 const specs = swaggerJsdoc(options);
