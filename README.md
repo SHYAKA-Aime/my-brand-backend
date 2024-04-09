@@ -1,2 +1,1 @@
-
-[![Workflow Status](https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml/badge.svg)](https://github.com/SHYAKA-Aime/my-brand-backend/actions)
+[![Run tests](https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml)
