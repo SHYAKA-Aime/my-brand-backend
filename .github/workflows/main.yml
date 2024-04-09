@@ -10,16 +10,10 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Install dependencies
-      run: |
-        cd my-brand-backend  # Make sure this is correct
-        npm install
+      run: npm install
 
     - name: Run App
-      run: |
-        cd my-brand-backend  # Make sure this is correct
-        npm run app
+      run: npm run app
 
     - name: Run Tests
-      run: |
-        cd my-brand-backend  # Make sure this is correct
-        npm run test
+      run: npm run test
