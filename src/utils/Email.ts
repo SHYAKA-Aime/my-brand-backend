@@ -11,7 +11,7 @@ export const sendPasswordResetEmail = async (email: string, token: string): Prom
     }
 });
 
-  // Send the email Lupe Mraz
+  // Send the email
   await transporter.sendMail({
     from: 'shyakaaime@gmail.com',
     to: "shyakaaime@gmail.com",
