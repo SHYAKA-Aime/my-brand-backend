@@ -7,10 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Install dependencies
-      run: npm install
+      run: |
+          cd my-brand-backend
+          npm install
 
     - name: Run App
-      run: npm run app
+      run: |
+          cd my-brand-backend
+          npm run app
 
     - name: Run Tests
-      run: npm run test
+      run: |
+          cd my-brand-backend
+          npm run test
