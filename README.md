@@ -1,1 +1,2 @@
-![workflow badge](https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml/badge.svg)
+
+[![Workflow Status](https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml/badge.svg)](https://github.com/SHYAKA-Aime/my-brand-backend/actions)
