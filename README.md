@@ -1,0 +1,1 @@
+![workflow badge](https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml/badge.svg)
