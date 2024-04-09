@@ -1,0 +1,13 @@
+name: Run tests
+
+on: [push]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run App
+      run: npm run app
+
+    - name: Run tests
+      run: npm run test
