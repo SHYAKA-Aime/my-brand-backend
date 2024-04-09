@@ -1,1 +1,1 @@
-[![Run tests](https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml)
+[![Run tests](https://img.shields.io/endpoint?url=https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml/badge.svg?branch=main)](https://img.shields.io/endpoint?url=https://github.com/SHYAKA-Aime/my-brand-backend/actions/workflows/main.yml)
