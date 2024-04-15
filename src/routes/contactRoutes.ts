@@ -10,6 +10,7 @@ const router = express.Router();
  *   post:
  *     summary: Contact Form Submission
  *     description: Submit a message through the contact form
+ *     tags: [Contact]
  *     requestBody:
  *       required: true
  *       content:

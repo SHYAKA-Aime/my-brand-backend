@@ -10,6 +10,7 @@ const router = express.Router();
  *   post:
  *     summary: User Signup
  *     description: Register a new user
+ *     tags: [Authentication]
  *     requestBody:
  *       required: true
  *       content:
@@ -41,6 +42,7 @@ router.post('/signup', signup);
  *   post:
  *     summary: User Login
  *     description: Log in with existing credentials
+ *     tags: [Authentication]
  *     requestBody:
  *       required: true
  *       content:
@@ -68,6 +70,7 @@ router.post('/login', login);
  *   post:
  *     summary: Admin Login
  *     description: Log in as an admin
+ *     tags: [Authentication]
  *     requestBody:
  *       required: true
  *       content:
@@ -96,6 +99,7 @@ router.post('/adminlogin', Adminlogin);
  *   post:
  *     summary: Forgot password
  *     description: user Request to reset Password
+ *     tags: [Authentication]
  *     requestBody:
  *       required: true
  *       content:
@@ -120,6 +124,7 @@ router.post('/forgot-password', forgotPassword);
  *   post:
  *     summary: Reset password
  *     description: user Resets his/her Password
+ *     tags: [Authentication]
  *     requestBody:
  *       required: true
  *       content:
